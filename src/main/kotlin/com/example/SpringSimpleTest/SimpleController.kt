@@ -11,6 +11,7 @@ class SimpleController {
     fun index():String{
         val logger: Logger = LoggerFactory.getLogger("Simple controller")
         logger.info("Uruchmiono stronę index")
+
         return "index"
     }
 }
